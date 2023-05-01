@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./shared/global.css">
+        <link rel="stylesheet" href="./shared/timer.css">
+
+        <title>Khronos - Timer</title>
+    </head>
+    <body>
+        <div id="sobre" class="splash">
+            <img src="/assets/bandeira.svg" alt="">
+            <div>
+                <span id="curso-nome">CURSO</span>
+                <p>Guia: <span id="guia-nome">GUIA</span></p>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="timer">
+                <div id="timer-show">
+                    <img src="/assets/clock.svg" alt="">
+                    <h1>
+                        <span id="timer-min">6</span>
+                        :
+                        <span id="timer-sec">00</span>
+                        :
+                        <span id="timer-ms">000</span>
+                    </h1>
+                </div>
+                <p>
+                    Total:
+                    <span id="timer-total">
+                        <span id="timer-total-min">0</span>m
+                        <span id="timer-total-sec">0</span>s
+                    </span>
+                </p>
+            </div>
+
+            <div id="action-button-container">
+                <button class="action-button" id="button-toggle-play">Start</button>
+                <button class="action-button negate" id="button-reset">Reset</button>
+            </div>
+        </div>
+    </body>
+</html>

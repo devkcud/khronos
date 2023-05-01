@@ -1,0 +1,41 @@
+div.splash[role="img"] {
+    height: 30vh;
+
+    /* linear-gradient está sendo usado como fallback caso a imagem não carregue ou esteja com o nome errado */
+    background-image: url('/assets/tile_wave.jpg'), linear-gradient(#2E3440, #2E3440);
+}
+
+form#login-form {
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form#login-form label {
+    font-weight: 600;
+}
+
+form#login-form input,
+form#login-form select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+    background: none;
+
+    border-radius: 5px;
+    border: 2px solid #2E3440;
+}
+
+form#login-form button {
+    padding-block: 0.5rem;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+    background-color: #2E3440;
+
+    border: none;
+    border-radius: 5px;
+}
