@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-div#splash {
+div.splash {
     width: 100%;
 
     background-size: cover;
