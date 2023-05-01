@@ -5,8 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Khronos - Login</title>
+
+        <link rel="stylesheet" href="./shared/global.css">
+
+        <!-- FIX: Remover (debug) -->
+        <script src="https://livejs.com/live.js"></script>
     </head>
     <body>
-        <!-- Nothing here yet -->
+        <!-- FIX: Mudar a splash image para a correta (splash.png) -->
+        <div id="splash" role="img" title="Splash image"></div>
+
+        <form id="login-form">
+            <h1>Guia</h1>
+
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Nome Sobrenome" required>
+
+            <label for="senha">Senha</label>
+            <input name="senha" type="password" placeholder="••••••••" required>
+
+            <label for="curso">Curso que está guiando</label>
+            <select name="curso" id="curso" required>
+                <option hidden disabled selected value>Nenhuma selecionada</option>
+                <option value="adm">ADM</option>
+                <option value="cont">CONT</option>
+                <option value="rh">RH</option>
+
+                <!-- NOTE: Não sei se vai apresentar aos outros informática -->
+                <option value="info">INFO</option>
+            </select>
+
+            <button type="submit">Login</button>
+        </form>
     </body>
 </html>
