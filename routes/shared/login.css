@@ -2,7 +2,7 @@ div.splash[role="img"] {
     height: 30vh;
 
     /* linear-gradient está sendo usado como fallback caso a imagem não carregue ou esteja com o nome errado */
-    background-image: url('/assets/splash.png'), linear-gradient(#2E3440, #2E3440);
+    background-image: url('/assets/tile_wave.jpg'), linear-gradient(#2E3440, #2E3440);
 }
 
 form#login-form {

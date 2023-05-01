@@ -2,7 +2,7 @@ div#sobre {
     min-height: 15vh;
 
     /* linear-gradient está sendo usado como fallback caso a imagem não carregue ou esteja com o nome errado */
-    background-image: linear-gradient(90deg, #2E3440 50%, #2E344000), url('/assets/splash.png');
+    background-image: linear-gradient(90deg, #2E3440 50%, #2E344000), url('/assets/tile_wave.jpg');
 
     padding: 1rem;
 
